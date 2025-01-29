@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Posar nom al nou comentari" />
+
+    <EditText
+        android:id="@+id/editTextTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Text del nou Comentari" />
+
+    <Button
+        android:id="@+id/btnCrear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREAR" />
+
+    <Spinner
+        android:id="@+id/spinnerComentarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnVer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VEURE" />
+
+    <TextView
+        android:id="@+id/textViewComentario"
+        android:layout_width="match_parent"
+        android:layout_height="438dp" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ELIMINAR" />
+</LinearLayout>
